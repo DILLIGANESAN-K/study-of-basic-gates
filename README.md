@@ -63,17 +63,40 @@ Y= A⊕B
 
 
 **PROGRAM**
-
+```
+module exp_1(a,b,y1,y2,y3,y4,y5,y6,y7);
+input a,b;
+output y1,y2,y3,y4,y5,y6,y7;
+and g1(y1,a,b);
+or g2(y2,a,b);
+not g3(y3,a);
+nand g4(y4,a,b);
+nor g5(y5,a,b);
+xor g6(y6,a,b);
+xnor g7(y7,a,b);
+endmodule
+```
 Program for logic gates and verify its truth table in quartus using Verilog programming
 
  Developed by: RegisterNumber: 
  
 **Logic symbol & Truthtable**
+![IMG-20241209-WA0024](https://github.com/user-attachments/assets/0bd2720a-ad68-4cca-a949-967465f48772)
+![IMG-20241209-WA0022](https://github.com/user-attachments/assets/b470b89d-4937-423f-b100-0aef5f3d8eb7)
+![IMG-20241209-WA0023](https://github.com/user-attachments/assets/f2d54b06-6b18-4f20-b8af-f045f3e13ae0)
+![IMG-20241209-WA0024](https://github.com/user-attachments/assets/64ddefd0-a2fd-453e-bf58-3180ff100658)
+![IMG-20241209-WA0022](https://github.com/user-attachments/assets/adadd3aa-12ff-40ff-ab07-fc9dc61a3004)
+![IMG-20241209-WA0025](https://github.com/user-attachments/assets/33b7aec7-9fbd-495c-8676-3c2f8889b52e)
+![IMG-20241209-WA0026](https://github.com/user-attachments/assets/b1414fab-f685-41e2-bd76-6cdda373951b)
+
 
 **RTL realization Output:** 
+![IMG-20241209-WA0028](https://github.com/user-attachments/assets/f89f1caf-3b72-470e-a83d-38a774f40ecd)
 
 **RTL**
+![IMG-20241209-WA0028](https://github.com/user-attachments/assets/fdc51e5b-49aa-424e-a1e5-58b338b99b15)
 
 **Result:**
-
+Thus the Basic digital ICs and the verification of truth tables for different logic
+gates were studied and successfully realized using Verilog.
 
